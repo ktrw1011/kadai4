@@ -56,4 +56,4 @@ test1and1() {
   assertEquals "${output}" "1"
 }
 
-. ~/shunit2-2.1.7/shunit2
+. shunit2/shunit2
