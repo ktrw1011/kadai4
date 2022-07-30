@@ -9,4 +9,4 @@ jobs:
       run: git clone https://github.com/kward/shunit2.git
     
     - name: run test
-      run: test.sh
+      run: ./test.sh
