@@ -5,8 +5,9 @@ jobs:
  unittest:
   runs-on: ubuntu-latest
   steps:
+    - uses: actions/checkout@v2
     - name: get shUnit2
       run: git clone https://github.com/kward/shunit2.git
     
     - name: run test
-      run: ./test.sh
+      run: chmod +x ./test.sh && ./test.sh
